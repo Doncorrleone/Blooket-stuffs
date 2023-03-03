@@ -27,6 +27,6 @@ return Object.values(webpackJsonp.push([
 ]).cache).find((x)=>{
     if(x.exports&&x.exports.a&&x.exports.a[p])return x.exports.a
 }).exports.a}
-    let gold = Number(bypass().window.prompt("Gold?"))
+    let gold = Number(bypass(99999999999999).window.prompt("Gold?"))
     getStateNode().setState({gold: gold, gold2: gold})
 })();
